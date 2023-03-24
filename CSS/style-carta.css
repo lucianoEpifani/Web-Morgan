@@ -1,0 +1,258 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+@media (min-width:768px) {
+    .mobile-menu {
+        display: none;
+        width: 5rem;
+    }
+     }
+    
+    
+    /* HEADER */
+    
+    
+    
+    .navegacion{
+        
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+     }
+    
+     @media (min-width:768px) {
+        .navegacion{
+            visibility: visible;
+            opacity: 1;
+        }
+        }
+    
+
+        /* JQUERY HEADER */
+
+@media (max-width:500px) {
+    
+    body{
+        background-color: #67b178;
+    }
+
+    .header--menu {
+        display: flex;
+        flex-direction: column; 
+        padding: 1.5rem;
+        
+    }
+
+    .titulo{
+        inline-size: max-content;
+        margin-left: 0;
+    }
+
+    a h1{
+        margin-left: 0;
+    }
+
+
+}
+    
+    
+     .mostrar {
+        visibility: visible;
+        opacity: 1;
+        height: auto;
+        color: #1c1c1c;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #1c1c1c;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+        }
+    
+
+body{
+    background: linear-gradient(#3a3a3a, rgb(167, 165, 165));
+        -webkit-box-shadow: 3px 4px 26px -4px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 3px 4px 26px -4px rgba(0, 0, 0, 0.75);
+        box-shadow: 3px 4px 26px -4px rgba(0, 0, 0, 0.75);
+}
+
+img{
+    width: 1140px;
+}
+
+.contenedor__dos{
+    object-fit: cover;
+    -webkit-box-shadow: 3px 4px 26px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 4px 26px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 4px 26px -4px rgba(0, 0, 0, 0.75);
+}
+
+
+.header--menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    gap: 5rem;    
+}
+
+
+.navegacion a {
+    text-decoration: none;
+    background: linear-gradient(#ffffff, rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    text-shadow: 0px 3px 10px rgb(00, 00, 00, 0.20);
+    cursor: pointer;
+    transition: all 200ms ease;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 5%;
+    left: 47%;
+}
+
+
+.navegacion a:hover {
+    transform: scale(1.1);
+    color: #67b178;
+}
+
+footer{
+    background-color:  black;
+    font-family:'Roboto Condensed', sans-serif;
+    color: white;
+    padding-top: 2rem;
+}
+
+footer a,p{
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: white;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono-footer{
+    width: 30px;
+    height: 30px;
+    margin: 1rem;
+}
+
+.icono-footer:hover{
+    transform: scale(1.10);
+    transition: 0.2s ease-out;
+}
+
+
+.seccion-links{
+    display: flex;  
+    align-items:center;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+
+}
+
+.seccion-links a {
+    text-decoration: none;
+    inline-size: max-content;
+}
+
+.our-restaurant a:hover{
+    scale: 1.2;
+}
+
+.our{
+    font-size: 1.4rem;
+}
+
+.vacio{
+    font-size: 1rem;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+}
+
+.ubicacion{
+    padding: .5rem;
+    border: solid 1px white;
+    border-radius: 1rem;
+
+}
+
+.ubicacion a{
+    display: flex;
+    text-decoration: none;
+    font-weight: bold;
+    padding-bottom: .5rem;
+    justify-content: center;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 9rem;
+}
+
+.titulos-footer{
+    font-weight: bold;
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.our-restaurant{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.iframe{
+    border-radius: .4rem;
+    
+
+}
